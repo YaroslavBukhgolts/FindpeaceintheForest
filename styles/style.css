@@ -1,0 +1,466 @@
+@import url(font.css);
+.sectionForest__title, .sectionCabins__title {
+  font-family: Open-sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.sectionForest__text, .sectionCabins__text {
+  font-family: Open-sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.sectionForest__link, .sectionCabins__link {
+  font-family: Open-sans, sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #5B6460;
+}
+
+.sectionForest__mapDark > div > div > div, .sectionForest__mapDark > div > div, .sectionForest__mapDark > div {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.conteiner {
+  margin: 0 auto;
+  width: 73.3333333333%;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px 17px 146px;
+}
+
+.header__navList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__navItem:not(:last-child) {
+  margin-right: 36px;
+}
+
+.header__navLink {
+  font-family: Din, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.88rem;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.header__button {
+  padding: 16px 60px;
+  background: #5B6460;
+  color: #fff;
+  font-size: 0.88rem;
+}
+
+.main {
+  height: auto;
+  width: 100%;
+}
+
+.sectionIntro {
+  position: relative;
+  background: url(../img/introBackground.png) no-repeat center/cover;
+  margin-bottom: 148px;
+  height: 89.5vh;
+}
+
+.sectionIntro__shadow {
+  position: absolute;
+  background-color: #333333;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  z-index: 1;
+}
+
+.sectionIntro__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionIntro__contentBlock {
+  text-align: end;
+  margin-top: 95px;
+  margin-right: 58px;
+  flex-grow: 1;
+}
+
+.sectionIntro__title {
+  font-family: Open-sans, sans-serif;
+  font-weight: 300;
+  font-size: 4.3rem;
+  line-height: 72px;
+  color: #fff;
+  margin-bottom: 34px;
+}
+
+.sectionIntro__text {
+  font-family: Mulish, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  max-width: 24%;
+  display: inline-block;
+  margin-right: 84px;
+}
+
+.sectionIntro__controllBlock {
+  margin-bottom: 84px;
+  text-align: center;
+}
+
+.leftArrow {
+  margin-right: 46px;
+}
+
+.rightArrow {
+  transform: rotateZ(180deg);
+}
+
+.sectionCabins {
+  height: auto;
+}
+
+.sectionCabins__wrapper {
+  padding-bottom: 8.5em;
+}
+
+.sectionCabins__mainBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 6.5em;
+  margin-bottom: 9.4em;
+  padding-left: 9.2em;
+}
+
+.sectionCabins__textContent {
+  align-self: flex-end;
+}
+
+.sectionCabins__title {
+  color: #5B6460;
+  margin-bottom: 50px;
+}
+
+.sectionCabins__text {
+  color: #000;
+  margin-bottom: 17px;
+}
+
+.sectionCabins__link {
+  border-bottom: 1.5px solid #5B6460;
+}
+
+.sectionCabins__gallery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sectionForest__wrapper {
+  display: flex;
+  height: 75%;
+}
+
+.sectionForest__map {
+  flex-basis: 50%;
+  background: url(../img/map.png) no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionForest__mapDark {
+  width: 100%;
+  height: 100%;
+  background: rgba(62, 68, 62, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionForest__mapDark > div {
+  width: 176px;
+  height: 176px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.sectionForest__mapDark > div > div {
+  width: 134px;
+  height: 134px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.sectionForest__mapDark > div > div > div {
+  width: 96px;
+  height: 96px;
+  background-color: rgb(255, 255, 255);
+  font-family: Din, sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+}
+
+.sectionForest__content {
+  flex-basis: 50%;
+  background: #E9ECE0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 150px 130px 150px 110px;
+}
+
+.sectionForest__title {
+  color: #5B6460;
+  margin-bottom: 50px;
+}
+
+.sectionForest__text {
+  color: #5B6460;
+  margin-bottom: 17px;
+}
+
+.sectionForest__link {
+  border-bottom: 1.5px solid #5B6460;
+}
+
+.sectionFacilities__wrapper {
+  background: #5B6460;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 85px 290px 80px 290px;
+}
+
+.sectionFacilities__title {
+  font-family: Open-sans, sans-serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 53px;
+}
+
+.sectionFacilities__list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 40px;
+}
+
+.sectionFacilities__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionFacilities__icon {
+  margin-bottom: 20px;
+}
+
+.sectionFacilities__text {
+  font-family: Open-sans, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 28px;
+  color: #fff;
+}
+
+.sectionAbout__wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.sectionAbout__left, .sectionAbout__right {
+  flex-basis: 50%;
+}
+
+.sectionAbout__right > img,
+.sectionAbout__left > img {
+  width: 100%;
+  height: 100%;
+}
+
+.sectionAbout__button {
+  position: absolute;
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+  background: #E9ECE0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: calc(50% - 78px);
+  top: calc(50% - 78px);
+  font-family: Din, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+.footer__wrapper {
+  background: #5B6460;
+  padding: 100px 147px;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer__topText {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fff;
+}
+
+.footer__topList {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer__topItem:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer__topLink {
+  font-family: Din, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer__midle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #EFEFEF;
+  max-width: 85%;
+  margin-bottom: 10px;
+}
+
+.form input[type=email] {
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-family: Open-sans, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.form input[type=email]:focus {
+  outline: none;
+}
+
+.form input[type=email]::placeholder {
+  font-family: Open-sans, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fff;
+}
+
+.form button[type=submit] {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.footer__formText {
+  font-family: Open-sans, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fff;
+  opacity: 0.7;
+  max-width: 75%;
+}
+
+.footer__bankList {
+  display: flex;
+  list-style-type: none;
+  width: 27.5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  font-family: Open-sans, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 30px;
+  color: #EFEFEF;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */
